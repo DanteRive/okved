@@ -48,3 +48,5 @@ curl -X POST http://localhost:8080/api/v1/okved/search \
   -H "Content-Type: application/json" \
   -d '{"phoneNumber":"+7 (999) 123-45-67"}'
 ```
+
+P.S - по структуре вышло немного сокращенно в models, не стал делать дополнительную декомпозиции из-за итогового размера проекта
